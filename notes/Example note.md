@@ -1,0 +1,1 @@
+This is a generic note. You can link it to other notes, such as [README.dev](README.dev.md).
