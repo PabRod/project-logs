@@ -9,7 +9,6 @@ tags:
   - meeting
   - project/project-name
 ---
-
 ## Context
 
 ## Notes
