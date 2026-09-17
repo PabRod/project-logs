@@ -21,6 +21,12 @@ In order to be friendly to non-Obsidian users, we'll use markdown links instead 
 - 🚫 ~~`[[note title]]`~~ 
 - ✅ `[title](note.md)` 
 
+### Add a new task
+Press `Insert template` and  choose `Task`.
+
+> **Why not use inline tasks** 
+> Because browsing through them requires installing an external plug-in. Additionally, we want tasks with extended information, so they can become the seed of a GitHub issue.
+
 ### Create mew meeting note
 Press `Create unique note`.
 
