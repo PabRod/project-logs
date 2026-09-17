@@ -26,10 +26,3 @@ Press `Create unique note`.
 
 > **Why not use daily notes instead?** 
 > Because unique notes allow you to create multiple notes per day.
-
-### Community plugins
-We make use of two community plugins:
-- `Tasks`: to collect tasks along the whole vault.
-- `Dataview`: to collect notes along the whole vault.
-
-Those plugins can be installed and enabled from `Settings/Community plugins`. These plugins enable to summarize tasks and meetings in the home note.

@@ -1,0 +1,15 @@
+views:
+  - type: list
+    name: Table
+    filters:
+      and:
+        - file.tags.contains("meeting")
+        - '!file.inFolder("_templates")'
+    order:
+      - file.name
+      - description
+      - date
+    sort:
+      - property: date
+        direction: DESC
+    indentProperties: false
