@@ -1,0 +1,5 @@
+{
+  "folder": "meetings",
+  "format": "YYYY-MM-DD HHmmss",
+  "template": "_templates/Meeting.md"
+}

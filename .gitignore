@@ -7,6 +7,7 @@
 !.obsidian/templates.json
 !.obsidian/daily-notes.json
 !.obsidian/snippets/
+!.obsidian/zk-prefixer.json
 
 # Claude
 .claude/
