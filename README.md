@@ -11,17 +11,24 @@ That's fine, just try and keep things tidy by:
 The repository already contains a `.obsidian/` folder with the configuration.
 You'll only need to say yes when prompted if you trust the vault's author.
 
-### Details
+## Details
 The list below shows what features we use, and why:
+### Use markdown links
+**TL;DR**: this configuration is shipped with `.obsidian/app.json`, so you don't have to worry about it.
 
-#### Community plugins
+In order to be friendly to non-Obsidian users, we'll use markdown links instead of Obsidian's default Wikilinks. That is:
+
+- 🚫 ~~`[[note title]]`~~ 
+- ✅ `[title](note.md)` 
+
+### Community plugins
 We make use of two community plugins:
 - `Tasks`: to collect tasks along the whole vault.
 - `Dataview`: to collect notes along the whole vault.
 
 Those plugins can be installed and enabled from `Settings/Community plugins`. These plugins enable to summarize tasks and meetings in the home note.
 
-#### Easily create new meeting notes
+### Easily create new meeting notes
 - Go to `Settings/Core plugins` and enable `Unique note creator`
 	- Configure it with the following parameters:
 		- New file location: `meetings/`
