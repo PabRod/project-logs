@@ -2,9 +2,10 @@
 Although it is not required, in order to get the most out of this repository, it is advisable to install [Obsidian](https://obsidian.md/) and open it as a vault.
 
 # Meh, I'd rather use just markdown
-That's fine, just try and keep things tidy by:
+That's fine. The only price you pay is you won't be able to open `.base` queries. Please try and keep things tidy by:
+
 - Using the subfolder `meetings` for meeting notes
-- Using the subfolder `other` for additional materials
+- Using the subfolder `tasks` for tasks
 - Using common sense as often as possible 😅
 
 # I want to use Obsidian
