@@ -5,7 +5,7 @@ Here you'll want to put some information about the project.
 
 ## Open tasks
 ```tasks
-not done
+status.type is not DONE
 short mode
 sort by due date
 ```
