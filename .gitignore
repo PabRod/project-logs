@@ -8,11 +8,11 @@
 !.obsidian/zk-prefixer.json
 !.obsidian/types.json
 
-# community-plugins.json is deliberately NOT whitelisted: this vault ships no
-# community plugins, and the file rewrites itself whenever anyone enables a
-# personal one. If a plugin is ever blessed, whitelist its code too:
-#
-# !.obsidian/plugins/ then .obsidian/plugins/* then !.obsidian/plugins/<name>/
+# Whitelists plug-ins one by one
+!.obsidian/plugins/
+.obsidian/plugins/*
+# Explicitly whitelist here
+!.obsidian/plugins/obsidian-tasks-plugin/
 
 # Personal configs (if any)
 .obsidian-*/
