@@ -8,7 +8,6 @@ views:
     order:
       - file.name
       - description
-      - date
     sort:
       - property: date
         direction: DESC
