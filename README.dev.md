@@ -26,6 +26,9 @@ Press `Create unique note`.
 > **Why not use daily notes instead?** 
 > Because unique notes allow you to create multiple notes per day.
 
+### Track tasks
+We use the [Tasks](https://publish.obsidian.md/tasks/) community plug-in to collect the to do's from all notes (see [Tasks manager](notes/Tasks%20manager.md)). It ships with the repository, but Obsidian won't run it until you enable it once: `Settings → Community plugins → Tasks`.
+
 ## Purpose
 The purpose of this repository is to create an Obsidian template than can be easily reused as a project log for our projects at the Netherlands eScience Center.
 
@@ -36,7 +39,7 @@ It contains three basic types of files:
 - Assets, such as reference publications. Please accompany them of an note adding some context to them.
 
 ## How is this different from a regular Obsidian vault?
-The main difference is the [`.gitignore`](,gitignore) file. It allows to share some configuration options (such as the markdown links) without interfering with the user's configuration:
+The main difference is the [`.gitignore`](.gitignore) file. It allows to share some configuration options (such as the markdown links) without interfering with the user's configuration:
 
 ### Community plug-ins
-If you install any community plug-in, it will not be propagated to the rest of your team. Would you like that to happen, then check how to do it in the [`.gitignore`](,gitignore) file.
+If you install any community plug-in, it will not be propagated to the rest of your team. Would you like that to happen, then check how to do it in the [`.gitignore`](.gitignore) file.
