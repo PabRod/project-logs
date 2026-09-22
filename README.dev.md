@@ -1,61 +1,41 @@
 # How to use this repository
 Although it is not required, in order to get the most out of this repository, it is advisable to install [Obsidian](https://obsidian.md/) and open it as a vault.
 
-## Meh, I'd rather use just markdown
-That's fine. The only price you pay is you won't be able to open `.base` queries. Please try and keep things tidy by:
-
-- Using the subfolder `meetings` for meeting notes
-- Using common sense as often as possible 😅
-
-## I want to use Obsidian
+> Meh, I'd rather use just markdown
+> That's fine. The only price you pay is you won't be able to open `.base` queries nor the task prompts.
+## I'll use Obsidian
 The repository already contains a `.obsidian/` folder with the basic configuration. It will take care of the details listed below. You'll only need to say yes when prompted if you trust the vault's author.
 
-Feel free to add personal configuration such as hotkeys, themes, etc. The `.gitignore` file protects the repo from accidentally uploading personal configuration files.
+We use the [Tasks](https://publish.obsidian.md/tasks/) community plug-in to collect the to do's from all notes (see [Tasks manager](notes/Tasks%20manager.md)). It ships with the repository, but Obsidian won't run it until you enable it once: `Settings → Community plugins → Tasks`.
 
+Feel free to add personal configuration such as hotkeys, themes, etc. The `.gitignore` file protects the repository from accidentally uploading personal configuration files.
 ## Details
 The list below shows what features we use, and why:
-
 ### Use markdown links
 In order to be friendly to non-Obsidian users, we'll use markdown links instead of Obsidian's default Wikilinks. That is:
 
 - 🚫 ~~`[[note title]]`~~ 
-- ✅ `[title](note.md)` 
+- ✅ `[title](relativepath/note.md)`
+
+If you are using Obsidian, you don't have to worry about this. Links will be auto-formatted.
 ### Create new meeting note
 Press `Create unique note`.
 
 > **Why not use daily notes instead?** 
 > Because unique notes allow you to create multiple notes per day.
-
 ### Track tasks
-We use the [Tasks](https://publish.obsidian.md/tasks/) community plug-in to collect the to do's from all notes (see [Tasks manager](notes/Tasks%20manager.md)). It ships with the repository, but Obsidian won't run it until you enable it once: `Settings → Community plugins → Tasks`.
-
 #### Triage: Obsidian or GitHub?
 Tasks in the notes are our inbox. Review them regularly (see [Tasks manager](notes/Tasks%20manager.md)) and decide:
 
 - **Small tasks** stay in Obsidian.
 - **Large tasks** (they need code, involve more than one person, or take more than a day) become a GitHub issue in the repository where the work happens. Then, in Obsidian, change the status to `[>]` (_Moved to GitHub_) and link the issue. In the issue, link back to the note for context.
 
-| Status | Meaning | Tracked in |
-|---|---|---|
-| `[ ]` | To do | Obsidian |
-| `[/]` | In progress | Obsidian |
-| `[>]` | Moved to GitHub | GitHub |
-| `[x]` / `[-]` | Done / cancelled | Obsidian |
+| Status        | Meaning          | Tracked in |
+| ------------- | ---------------- | ---------- |
+| `[ ]`         | To do            | Obsidian   |
+| `[/]`         | In progress      | Obsidian   |
+| `[>]`         | Moved to GitHub  | GitHub     |
+| `[x]` / `[-]` | Done / cancelled | Obsidian   |
 
 > **Why a separate status for promoted tasks?**
 > Once a task is an issue, GitHub is its single source of truth. `[>]` takes the task out of every open-task query, so there is nothing to keep in sync.
-
-## Purpose
-The purpose of this repository is to create an Obsidian template than can be easily reused as a project log for our projects at the Netherlands eScience Center.
-
-It contains three basic types of files:
-
-- Meetings, containing information about meetings (such as date, attendants, place, ...)
-- Notes, containing any general information
-- Assets, such as reference publications. Please accompany them of an note adding some context to them.
-
-## How is this different from a regular Obsidian vault?
-The main difference is the [`.gitignore`](.gitignore) file. It allows to share some configuration options (such as the markdown links) without interfering with the user's configuration:
-
-### Community plug-ins
-If you install any community plug-in, it will not be propagated to the rest of your team. Would you like that to happen, then check how to do it in the [`.gitignore`](.gitignore) file.
