@@ -59,6 +59,13 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": true,
         "type": "CANCELLED"
+      },
+      {
+        "symbol": ">",
+        "name": "Moved to GitHub",
+        "nextStatusSymbol": "x",
+        "availableAsCommand": true,
+        "type": "NON_TASK"
       }
     ]
   },

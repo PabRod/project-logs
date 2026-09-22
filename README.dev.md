@@ -29,6 +29,22 @@ Press `Create unique note`.
 ### Track tasks
 We use the [Tasks](https://publish.obsidian.md/tasks/) community plug-in to collect the to do's from all notes (see [Tasks manager](notes/Tasks%20manager.md)). It ships with the repository, but Obsidian won't run it until you enable it once: `Settings → Community plugins → Tasks`.
 
+#### Triage: Obsidian or GitHub?
+Tasks in the notes are our inbox. Review them regularly (see [Tasks manager](notes/Tasks%20manager.md)) and decide:
+
+- **Small tasks** stay in Obsidian.
+- **Large tasks** (they need code, involve more than one person, or take more than a day) become a GitHub issue in the repository where the work happens. Then, in Obsidian, change the status to `[>]` (_Moved to GitHub_) and link the issue. In the issue, link back to the note for context.
+
+| Status | Meaning | Tracked in |
+|---|---|---|
+| `[ ]` | To do | Obsidian |
+| `[/]` | In progress | Obsidian |
+| `[>]` | Moved to GitHub | GitHub |
+| `[x]` / `[-]` | Done / cancelled | Obsidian |
+
+> **Why a separate status for promoted tasks?**
+> Once a task is an issue, GitHub is its single source of truth. `[>]` takes the task out of every open-task query, so there is nothing to keep in sync.
+
 ## Purpose
 The purpose of this repository is to create an Obsidian template than can be easily reused as a project log for our projects at the Netherlands eScience Center.
 
