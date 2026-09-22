@@ -1,28 +1,13 @@
-## Purpose
-The purpose of this repository is to create an Obsidian template than can be easily reused as a project log for our projects at the Netherlands eScience Center.
+## Welcome
+This is the knowledge base of _{insert project name and link here}_.
 
-It contains three basic types of files:
+Here we'll collect (and **curate**) the relevant project information, such as papers (published and preprinted), meeting notes, ... We'll also use it as main inbox for assigning tasks to team members.
+### How to use this knowledge base
+In order to get the most out of it, we recommend you to open it as an [Obsidian](https://obsidian.md/) vault. Most likely the first note you want to read is [Getting started](notes/Getting%20started.md).
 
-- Meetings, containing information about meetings (such as date, attendants, place, ...)
-- Notes, containing any general information
-- Assets, such as reference publications. Please accompany them of an note adding some context to them.
+Want to know more technical details about the knowledge base? Check [README.dev](README.dev.md).
 
-And the community plug-in Obsidian Tasks pre-installed.
-
-## How to use me
-Want to know how to use this repository? Check [README.dev](README.dev.md).
-
----
-
-## Description
-Here you'll want to put some information about the project.
-
-## Open tasks
-```tasks
-status.type is not DONE
-short mode
-sort by due date
-```
+![Top priority tasks](notes/Tasks%20manager.md#Top%20priority%20tasks)
 
 ## Meetings log
 ![Index](meetings/Index.base)
